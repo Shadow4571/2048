@@ -1,0 +1,208 @@
+@font-face {
+    font-family: Hegel;
+    src: url(hegel.ttf);
+}
+
+*{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    -khtml-user-drag: none;
+    -ms-user-drag: none;
+    user-drag: none;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #373838;
+    font-family: Hegel;
+}
+
+.titlebox {
+    position: absolute;
+    height: 10%;
+    left: 30%;
+    right: 30%;
+    top: 5%;
+    bottom: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 72pt;
+    color: #FF3679;
+}
+
+.losebox {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    z-index: 100;
+    background: #A7002B;
+    display: none;
+}
+
+h2 {
+    margin: 10px;
+    font-size: 48pt;
+    color: #ebebeb;
+}
+
+#playfield{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #ffffff;
+}
+
+.scoreboard {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 80%;
+    height: 10%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.scoretext {
+    margin: 0;
+    font-size: 32pt;
+    color: #ebebeb;
+    letter-spacing: 1px;
+}
+
+.scoretext.score {
+    color: #47B2FF;
+    font-size: 40pt;
+}
+
+.back{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #ebebeb;
+}
+
+.thing{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    color: #dddddd;
+    text-align: center;
+    font: 48px/96px Hegel;
+}
+
+.thing.t2{
+    background: #47B2FF;
+}
+.thing.t2:after{
+    content: '2'
+}
+
+.thing.t4{
+    background: #A8DD00;
+}
+.thing.t4:after{
+    content: '4'
+}
+
+.thing.t8{
+    background: #F0B505;
+}
+.thing.t8:after{
+    content: '8'
+}
+
+.thing.t16{
+    background: #FF3679;
+}
+.thing.t16:after{
+    content: '16'
+}
+
+.thing.t32{
+    background: #486A00;
+}
+.thing.t32:after{
+    content: '32'
+}
+
+.thing.t64{
+    background: #A7002B;
+}
+.thing.t64:after{
+    content: '64'
+}
+
+.thing.t128{
+    background: #0002B9;
+}
+.thing.t128:after{
+    content: '128'
+}
+
+.thing.t256{
+    background: #450053;
+}
+.thing.t256:after{
+    content: '256';
+}
+
+.thing.t512{
+    background: #7313FF;
+}
+.thing.t512:after{
+    content: '512';
+}
+
+.thing.t1024{
+    background: #004C3E;
+}
+.thing.t1024:after{
+    content: '1024';
+}
+
+.thing.t2048{
+    background: #3E1000;
+}
+.thing.t2048:after{
+    content: '2048';
+}
+
+.thing.t4096{
+    background: #17053E;
+}
+.thing.t4096:after{
+    content: '4096';
+}
+
+.thing.t8192{
+    background: #000007;
+}
+.thing.t8192:after{
+    content: '8192';
+}

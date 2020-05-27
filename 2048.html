@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./gamestyle.css">
+
+	<script type="text/javascript" src="game.js"></script>
+    <script type="text/javascript" src="mouse.js"></script>
+    <script type="text/javascript" src="field.js"></script>
+    <script type="text/javascript" src="animation.js"></script>
+</head>
+
+<body>
+    <div class="titlebox">
+        <h1>2048</h1>
+    </div>
+
+    <div class="losebox" id="lose">
+        <h2>YOU LOSE</h2>
+    </div>
+
+    <div id="playfield">
+        <div class="back" style="top: 0px; left: 0px;"></div>
+        <div class="back" style="top: 100px; left: 0px;"></div>
+        <div class="back" style="top: 200px; left: 0px;"></div>
+        <div class="back" style="top: 300px; left: 0px;"></div>
+        <div class="back" style="top: 0px; left: 100px;"></div>
+        <div class="back" style="top: 100px; left: 100px;"></div>
+        <div class="back" style="top: 200px; left: 100px;"></div>
+        <div class="back" style="top: 300px; left: 100px;"></div>
+        <div class="back" style="top: 0px; left: 200px;"></div>
+        <div class="back" style="top: 100px; left: 200px;"></div>
+        <div class="back" style="top: 200px; left: 200px;"></div>
+        <div class="back" style="top: 300px; left: 200px;"></div>
+        <div class="back" style="top: 0px; left: 300px;"></div>
+        <div class="back" style="top: 100px; left: 300px;"></div>
+        <div class="back" style="top: 200px; left: 300px;"></div>
+        <div class="back" style="top: 300px; left: 300px;"></div>
+    </div>
+
+    <div class="scoreboard">
+        <p class="scoretext">SCORE</p>
+        <p class="scoretext score" id="score">0</p>
+    </div>
+</body>
+</html>
